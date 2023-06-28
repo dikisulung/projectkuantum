@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Fisika Kuantum</title>
+    <link rel="shortcut icon" href="gambar/gambar3.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"> Project Fisika Kuantum Kelompok 6</i></a>
+    </header>
+
+      <section class="home" id="home">
+        <div class="content">
+          <h3>Persamaan Schordinger satu Elektron</h3>
+          <p>
+            Kini akan dikemukakan pandangan secara kuantum tentang atom hidrogen, H, dan atom-atom
+            berelektron tunggal seperti ion-ion He+
+            , Li+2, Be+3dan sebagainya. Terlebih dulu diasumsikan bahwa
+            inti atom adalah pusat yang diam sehingga kinetiknya diabaikan; ini dikenal sebagai aproksimasi
+            Born-Oppenheimer. Elektron disekitar inti (proton) memiliki energi E sebagai penjumlahan energi
+            kinetik dan energi potensial.
+          </p>
+          <a href="#gallery" class="btn">Lihat Grafik</a>
+        </div>
+  
+        <div class="image">
+          <img src="gambar/gambar3.png" alt="" />
+        </div>
+      </section>
+
+      <section class="atom" id="atom">
+
+        <h1 class="heading"> Macam - macam <span> Orbital Atom </span> </h1>
+    
+        <div class="atom-container">
+    
+            <div class="atom-box">
+                <div class="atom-content1">
+                    <img src="gambar/ga1.png" alt="Hidrogen" class="atom-image">
+                </div>
+            </div>
+            <div class="atom-box">
+                <div class="atom-content2">
+                    <img src="gambar/ga2.png" alt="Hidrogen" class="atom-image">
+                </div>
+            </div>
+            <div class="atom-box">
+                <div class="atom-content3">
+                    <img src="gambar/ga3.png" alt="Hidrogen" class="atom-image">
+                </div>
+            </div>
+            
+        </div>
+    
+    </section>
+
+    <section class="about" id="about">
+      <h1 class="heading">Animasi Fungsi</h1>
+      <div class="row">
+        <div class="video">
+          <video src="./gambar/2D Schrodinger Equation Animation.mp4" loop muted autoplay></video>
+        </div>
+        <div class="content">
+          <h3>Animasi dari Fungsi Persamaan Schordinger</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading"> Fungsi Gelombang <span> Radial Atom Hidrogen </span> </h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <img src="gambar/g1.png" alt="">
+                <div class="content">
+                    <h3>R (1,0)</h3>
+                </div>
+            </div>
+            <div class="box">
+                <img src="gambar/g2.png" alt="">
+                <div class="content">
+                    <h3>R (2,0)</h3>
+                </div>
+            </div>
+            <div class="box">
+                <img src="gambar/g2.png" alt="">
+                <div class="content">
+                    <h3>R (2,1)</h3>
+                </div>
+            </div>
+            <div class="box">
+                <img src="gambar/g4.png" alt="">
+                <div class="content">
+                    <h3>R (3,0)</h3>
+                </div>
+            </div>
+            <div class="box">
+                <img src="gambar/g5.png" alt="">
+                <div class="content">
+                    <h3>R (3,1)</h3>
+                </div>
+            </div>
+            <div class="box">
+                <img src="gambar/g6.png" alt="">
+                <div class="content">
+                    <h3>R (3,2)</h3>
+                </div>
+            </div>
+        </div>
+
+        <section class="contact" id="contact">
+            <h1 class="heading">Evaluasi <span>Pembelajaran</span></h1>
+      
+            <div class="row">
+              <div class="image">
+                <p>1. Hitunglah koreksi relativitas terhadap tingkat-tingkat energi E1, E2 dan E3 dari atom hidrogen.</p>
+                <p>2. Tentukanlah frekuensi RF yang bias menginduksikan transisi spin elektron dari orientasi paralel
+                    menjadi antiparalel atau sebaliknya di dalam medan magnet 0,1 T.</p>
+                <p>3. Hitunglah komponen-komponen momen transisi dipole listrik M(x) dan M(y) dari orbital 2p ke
+                    orbital 1s.</p>
+              </div>
+      
+              <form action="" name="jawaban">
+                <div class="inputBox">
+                  <input type="text" placeholder="nama" name="nama" />
+                  <input type="email" placeholder="e-mail" name="email" />
+                </div>
+      
+                <textarea
+                  placeholder="Jawaban"
+                  name="jawaban"
+                  id=""
+                  cols="30"
+                  rows="10"
+                ></textarea>
+      
+                <button type="submit" class="btn btn-kirim">kirim</button>
+      
+                <button
+                  class="btn btn-primary d-none btn-loading"
+                  type="button"
+                  disabled
+                >
+                  <span
+                    class="spinner-border spinner-border-sm"
+                    role="status"
+                    aria-hidden="true"
+                  ></span>
+                  Loading...
+                </button>
+                <div
+                  class="alert alert-success alert-dismissible fade show d-none my-alert"
+                  role="alert"
+                >
+                  <strong>Terimakasih Sudah mengirimkan jawaban 👌</strong>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="alert"
+                    aria-label="Close"
+                  ></button>
+                </div>
+              </form>
+            </div>
+      
+            
+            </div>
+          </section>
+    
+        <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+        <script type="text/javascript">
+            VanillaTilt.init(document.querySelectorAll(".atom-box"), {
+                max: 25,
+                speed: 400
+            });
+            
+            //It also supports NodeList
+            VanillaTilt.init(document.querySelectorAll(".your-element"));
+        </script>
+
+        <script>
+          const scriptURL =
+            'https://script.google.com/macros/s/AKfycbypgjflNlzYA3E4DjXA7lff6ZdDTT6KOByoamNOLiQb0vr-VwFy0Ott-l4p7Ts-0KmDXQ/exec';
+          const form = document.forms['jawaban'];
+
+          const btnKirim = document.querySelector('.btn-kirim');
+          const btnLoading = document.querySelector('.btn-loading');
+          const myAlert = document.querySelector('.my-alert');
+
+          form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            btnLoading.classList.toggle('d-none');
+            btnKirim.classList.toggle('d-none');
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+              .then((response) => {
+                btnLoading.classList.toggle('d-none');
+                btnKirim.classList.toggle('d-none');
+                myAlert.classList.toggle('d-none');
+                form.reset();
+                console.log('Success!', response);
+              })
+              .catch((error) => console.error('Error!', error.message));
+          });
+        </script>
+    
+</body>
+</html>
